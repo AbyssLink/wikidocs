@@ -1,4 +1,4 @@
-# 基于 Express 与 Mongodb 的简易多人 blog 实现
+# 一个基于 Express 的简易多人 blog
 
 ## 项目参考：
 

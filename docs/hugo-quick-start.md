@@ -1,4 +1,4 @@
-# "Hugo Quick Start"
+# Hugo Quick Start
 
 # Quick Start
 

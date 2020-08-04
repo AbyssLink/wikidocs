@@ -1,4 +1,4 @@
-# "Learning Kotlin Basic"
+# Kotlin 基础笔记
 
 ## Basic Syntax
 

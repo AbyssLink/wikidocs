@@ -56,7 +56,7 @@ Port: 1883
 打开示例->pubsubclient->mqtt-esp8266,
 填写 esp8266 将连接的 wifi 名与密码、连接的代理服务器地址信息，如下:
 
-```c++
+```cpp
 // Update these with values suitable for your network.
 
 const char* ssid = "*******";
@@ -70,7 +70,7 @@ const char* mqtt_server = "iot.eclipse.org";
 
 1. 连接 wifi
 
-   ```c++
+   ```cpp
    void setup_wifi() {
    delay(10);
    WiFi.begin(ssid, password);
@@ -83,7 +83,7 @@ const char* mqtt_server = "iot.eclipse.org";
 
 2. 接收回调函数
 
-   ```c++
+   ```cpp
    void callback(char* topic, byte* payload, unsigned int
    length){
    //接收消息处理
@@ -92,7 +92,7 @@ const char* mqtt_server = "iot.eclipse.org";
 
 3. MQTT 配置
 
-   ```c++
+   ```cpp
    void setup() {
    ......
    setup_wifi();
@@ -103,7 +103,7 @@ const char* mqtt_server = "iot.eclipse.org";
 
 4. MQTT 连接
 
-   ```c++
+   ```cpp
    void reconnect() {
        while (!client.connected()) {
            //设置客户端ID,如果重名,服务器会断开前一个连接
@@ -121,7 +121,7 @@ const char* mqtt_server = "iot.eclipse.org";
 
 5. 消息接收或发送
 
-   ```c++
+   ```cpp
    void loop() {
        if (!client.connected()) {
            reconnect();
@@ -214,7 +214,7 @@ DHT11 传感器的通信协议是单总线协议，连线为：GND ～ GND， VC
 
 设置与 DHT sensor 连接的引脚， 运行即可在串口监视器看到温湿度等输出.
 
-```c++
+```cpp
 	  // dht.setup(17);
 	  dht.setup(D1); // Connect DHT sensor to GPIO D1
 ```

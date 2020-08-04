@@ -1,4 +1,4 @@
-# Django 社团管理项目开发
+# Django 社团管理系统
 
 ## Code
 

@@ -1,4 +1,4 @@
-# 一个简单的电子商城 demo
+# 电子商城 demo
 
 基于 Vue 和 Spring Boot 的一个电子商城
 

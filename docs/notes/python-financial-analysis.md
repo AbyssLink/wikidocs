@@ -1,4 +1,4 @@
-# 用于金融分析的 Python 和统计学方法
+# Python 金融数据分析
 
 课程链接 🔗：[Python and Statistics for Financial Analysis](https://www.coursera.org/learn/python-statistics-financial-analysis/home/welcome)
 

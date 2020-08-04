@@ -1,4 +1,4 @@
-# 一个 Android MQTT 协议通信客户端
+# Android MQTT 协议客户端
 
 ## Code
 

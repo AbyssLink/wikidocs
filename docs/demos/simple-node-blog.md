@@ -1,4 +1,4 @@
-# 一个基于 Express 的简易多人 blog
+# 简易多人 Node blog
 
 ## 项目参考：
 

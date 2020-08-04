@@ -1,5 +1,4 @@
-# 个人常用的一些命令
-
+# 个人常用命令
 
 As a command manual tool, instead of `man`, `tldr` is very simple and easy to use, and can list some common usages of commands.
 

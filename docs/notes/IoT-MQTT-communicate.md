@@ -1,4 +1,4 @@
-# 使用 MQTT + JSON 进行物联网通信
+# MQTT + JSON 物联网通信
 
 ## 1. MQTT 通信协议
 

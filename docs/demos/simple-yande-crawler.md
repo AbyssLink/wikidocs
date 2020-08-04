@@ -1,4 +1,4 @@
-# 一个简单的 Yande.re 爬虫
+# 简单 Yande.re 爬虫
 
 Yande.re 提供了详尽方便的 API，于是写了个用 API 下载 yande.re 图片的 Python 脚本
 

@@ -21,7 +21,16 @@
         name: "Personal Wiki",
         repo: "https://github.com/AbyssLink/wikidocs",
         loadSidebar: true,
+        loadNavbar: true,
+        auto2top: true,
+        maxLevel: 3,
         subMaxLevel: 2,
+        search: {
+          paths: "auto",
+          placeholder: "🔍 Type to search ",
+          noData: "😞 No Results! ",
+          depth: 3,
+        },
       };
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
@@ -31,5 +40,7 @@
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
+    <!-- search plugins -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   </body>
 </html>

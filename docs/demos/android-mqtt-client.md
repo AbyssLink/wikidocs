@@ -14,7 +14,7 @@ https://github.com/AbyssLink/MQTTClient
 
 | 添加连接                                                                               | 连接页面                                                                               |
 | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| ![](https://raw.githubusercontent.com/ShiroCheng/pic/master/Screenshot_1582626446.png) | ![](https://raw.githubusercontent.com/ShiroCheng/pic/master/Screenshot_1582626387.png) |
+| ![](https://raw.githubusercontent.com/AbyssLink/pic/master/Screenshot_1582626446.png) | ![](https://raw.githubusercontent.com/AbyssLink/pic/master/Screenshot_1582626387.png) |
 
 ## 问题解决
 

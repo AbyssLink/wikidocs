@@ -19,7 +19,7 @@ this script will organize unsort photos to different folders by year, month, and
 
 ### Screenshots
 
-![](https://raw.githubusercontent.com/ShiroCheng/pic/master/Sort-photos-Screenshots_1.jpg)
+![](https://raw.githubusercontent.com/AbyssLink/pic/master/Sort-photos-Screenshots_1.jpg)
 
 ## 中文
 

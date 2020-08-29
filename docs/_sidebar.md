@@ -3,6 +3,7 @@
 	* [Hugo Quick Start](notes/hugo-quick-start.md)
 	* [Kotlin 基础笔记](notes/learning-kotlin-basic.md)
 	* [React 基础笔记](notes/learning-react-basic.md)
+	* [移动应用开发及上线流程简单介绍](notes/mobile-app-development-simple-process.md)
 	* [Python 金融数据分析](notes/python-financial-analysis.md)
 	* [个人常用命令](notes/some-useful-commands.md)
 	* [Web API 基础](notes/web-API-learning.md)

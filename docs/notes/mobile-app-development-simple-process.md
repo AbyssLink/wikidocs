@@ -17,7 +17,7 @@ References: [移动操作系统](https://wiki.kfd.me/wiki/行動作業系統)
 
 ## 移动应用开发流程
 
-![](https://i.loli.net/2020/08/28/FRzbBSEgK5jCIVQ.png)
+![](https://i.loli.net/2020/08/31/Ei5AsmLkuXxevjl.png)
 
 References: [Mobile App Development Process](https://www.invonto.com/insights/mobile-app-development-process/)
 
@@ -29,7 +29,7 @@ References: [Mobile App Development Process](https://www.invonto.com/insights/mo
 
 原生技术栈（native technology stack）指的是，只能用于特定手机平台的开发技术。比如，安卓平台的 Java 技术栈，iOS 平台的 Object-C 技术栈或 Swift 技术栈。
 
-<img src="https://www.godsgracetech.com/images/Native-Mobile-App-Development.png" style="zoom:50%;" />
+<img src="https://i.loli.net/2020/08/30/wXItp8m6KGkELsF.png" style="zoom:50%;" />
 
 示例应用：iOS 计算器、Reeder、LastPass 等。
 

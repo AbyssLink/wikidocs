@@ -24,6 +24,14 @@ http ifconfig.co/json
 http myip.ipip.net
 ```
 
+## Download
+
+```bash
+# references: https://unix.stackexchange.com/questions/272868/download-only-format-mp4-on-youtube-dl
+# download youtube videos use mp4 format and with auto subtitle
+youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4' --write-auto-sub <url>
+```
+
 ## Network Proxy
 
 ```bash

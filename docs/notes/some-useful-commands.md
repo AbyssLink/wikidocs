@@ -28,8 +28,14 @@ http myip.ipip.net
 
 ```bash
 # references: https://unix.stackexchange.com/questions/272868/download-only-format-mp4-on-youtube-dl
-# download youtube videos use mp4 format and with auto subtitle
-youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4' --write-auto-sub <url>
+# download youtube videos use mp4 format and with auto generated subtitle
+youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4' --auto-number --write-auto-sub <url>
+# or
+youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4' -o "%(playlist_index)s-%(title)s.%(ext)s" --write-auto-sub <url>
+# download selected subtitle
+youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4' -o "%(playlist_index)s-%(title)s.%(ext)s" --write-sub --sub-lang en <url>
+# download only subtitles
+youtube-dl --write-sub --sub-lang en --skip-download <url>
 ```
 
 ## Network Proxy

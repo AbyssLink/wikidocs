@@ -16,6 +16,12 @@ In general, Linux network commands involve so few pieces:
 - Capture： tcpdump
 - Virtual device： tunctl、 brctl、 ovs
 
+## deploy and maintain in the server:
+
+- Docker + Terraform
+- ansible-playbook
+- simple way: write a shell and manage it with systemd
+
 ## NetWork Tools
 
 ```bash
@@ -113,6 +119,15 @@ for f in *.mkv; do ffmpeg -i "$f" -c copy "${f%.mkv}.mp4"; done
 
 # Windows one-liner example
 for /R %f IN (*.mkv) DO ffmpeg -i "%f" -c copy "%~nf.mp4"
+
+# Batch convert to mp3
+# only mp4
+mkdir outputs
+for f in *.mp4; do ffmpeg -i "$f" -c:a libmp3lame "outputs/${f%.mp4}.mp3"; done
+
+# m4a, mov and flac
+mkdir outputs
+for f in *.{m4a,mov,flac}; do ffmpeg -i "$f" -c:a libmp3lame "outputs/${f%.*}.mp3"; done
 ```
 
 ## Files

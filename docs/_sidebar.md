@@ -1,5 +1,6 @@
 * **notes**
 	* [MQTT + JSON 物联网通信](notes/IoT-MQTT-communicate.md)
+	* [设计语言简单介绍](notes/design-language-basic.md)
 	* [Hugo Quick Start](notes/hugo-quick-start.md)
 	* [Kotlin 基础笔记](notes/learning-kotlin-basic.md)
 	* [React 基础笔记](notes/learning-react-basic.md)

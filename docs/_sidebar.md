@@ -1,12 +1,20 @@
+* **explore**
+	* [斐讯 K2 刷入固件](explore/K2-router-flash-firmware.md)
+	* [小米 MIUI 转类原生 过程记录](explore/MIUI-to-AOSP.md)
+	* [ASUS 路由器体验](explore/wireless-router-asus.md)
 * **notes**
 	* [MQTT + JSON 物联网通信](notes/IoT-MQTT-communicate.md)
 	* [设计语言简单介绍](notes/design-language-basic.md)
+	* [GitHub Pages 同步私密仓库 hexo 博客](notes/hexo-deploy-docker.md)
 	* [Hugo Quick Start](notes/hugo-quick-start.md)
 	* [Kotlin 基础笔记](notes/learning-kotlin-basic.md)
 	* [React 基础笔记](notes/learning-react-basic.md)
 	* [移动应用开发及上线流程简单介绍](notes/mobile-app-development-simple-process.md)
+	* [zsh 使用问题 + 分析 zsh 启动项](notes/profiling-zsh-startup.md)
 	* [Python 金融数据分析](notes/python-financial-analysis.md)
 	* [个人常用命令](notes/some-useful-commands.md)
+	* [VPS 安装 Transmission 实现离线下载](notes/transmission-cli-downloader.md)
+	* [在 VS Code 中设置多个 PYTHONPATH](notes/vscode-set-PYTHONPATH.md)
 	* [Web API 基础](notes/web-API-learning.md)
 * **demos**
 	* [Android MQTT 协议客户端](demos/android-mqtt-client.md)
